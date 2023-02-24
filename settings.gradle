@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Demo Films"
+include ':app'
+include ':feature:home'
+include ':core:data'
+include ':core:domain'
+include ':core:ui'
+include ':core:network'
+include ':core:domain-common'
+include ':feature:film_detail'
