@@ -40,8 +40,8 @@ android {
 
 dependencies {
 
-    implementation(project(':core:domain'))
-    implementation(project(':core:domain-common'))
+    implementation(project(':core:domain:domain-core'))
+    implementation(project(':core:domain:shared-domain'))
     implementation(project(':core:ui'))
 
     implementation 'androidx.core:core-ktx:1.9.0'
